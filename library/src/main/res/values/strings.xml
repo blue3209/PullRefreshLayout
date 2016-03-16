@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">library</string>
+
+    <string name="pullrefresh_complete">刷新完成</string>
+    <string name="pullrefresh_refreshing">刷新中..</string>
+    <string name="pullrefresh_pull_refresh">下拉刷新</string>
+    <string name="pullrefresh_release_refresh">松开刷新</string>
+</resources>
