@@ -3,12 +3,13 @@ Android PullRefreshLayout
 #介绍
 
 Android下拉刷新控件，由SwipeRefreshLayout修改而来，主要有以下几个点：<br/>
-	1.支持AbsListView、ScrollView、WebView以及RecyclerView;<br/>
-	2.支持自定义HeaderView<br/>
-	3.支持三种Header显示方式<br/>
-   	NORMAL:默认方式，TargetView和HeaderView同步下拉<br/>
-  		OVERLAY:层叠方式，下拉时TargetView动，HeaderView在其底部不动<br/>
-   	 ABOVE:HeaderView在TargetView顶部，下拉时HeaderView动，而TargetView不动<br/>
+
+* 1.支持AbsListView、ScrollView、WebView以及RecyclerView;<br/>
+* 2.支持自定义HeaderView<br/>
+* 3.支持三种Header显示方式<br/>
+	* NORMAL:默认方式，TargetView和HeaderView同步下拉<br/>
+	* OVERLAY:层叠方式，下拉时TargetView动，HeaderView在其底部不动<br/>
+	* ABOVE:HeaderView在TargetView顶部，下拉时HeaderView动，而TargetView不动<br/>
 
 #用法：
 ##1.xml布局文件
