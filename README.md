@@ -11,6 +11,7 @@ Android下拉刷新控件，由SwipeRefreshLayout修改而来，主要有以下�
 
 用法：
   1.xml布局文件
+  
    <com.blue.pullrefreshlayout.PullRefreshLayout
         android:id="@+id/layout_pull_layout"
         android:layout_width="match_parent"
@@ -23,7 +24,9 @@ Android下拉刷新控件，由SwipeRefreshLayout修改而来，主要有以下�
             android:layout_height="match_parent"
             android:scrollbars="vertical" />
    </com.blue.pullrefreshlayout.PullRefreshLayout>
+   
   2.用法
+  
    pullRefreshLayout.setOnRefreshListener(new PullRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
@@ -42,7 +45,11 @@ Android下拉刷新控件，由SwipeRefreshLayout修改而来，主要有以下�
 
             }
     });
+    
   3.自定义Header,需实现PullRefreshHeader接口
+  
    pullRefreshLayout.setHeaderView(PullRefreshHeader header);
+   
   4.自动刷新
+  
    pullRefreshLayout.setAutoRefresh();
