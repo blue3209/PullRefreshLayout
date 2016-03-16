@@ -11,7 +11,7 @@ Android下拉刷新控件，由SwipeRefreshLayout修改而来，主要有以下�
 	* OVERLAY:层叠方式，下拉时TargetView动，HeaderView在其底部不动<br/>
 	* ABOVE:HeaderView在TargetView顶部，下拉时HeaderView动，而TargetView不动<br/>
 
-[Demo下载](https://github.com/chengli3209/PullRefreshLayout/edit/master/app-debug.apk "悬停显示")
+[Demo下载](https://raw.githubusercontent.com/chengli3209/PullRefreshLayout/master/app-debug.apk "悬停显示")
 
 #用法：
 ##1.xml布局文件
