@@ -13,6 +13,8 @@ Android下拉刷新控件，由SwipeRefreshLayout修改而来，主要有以下�
 
 [Demo下载](https://raw.githubusercontent.com/chengli3209/PullRefreshLayout/master/app-debug.apk "悬停显示")
 
+![](https://raw.githubusercontent.com/chengli3209/PullRefreshLayout/master/pullrefreshlayout.gif) 
+
 #用法：
 ##1.xml布局文件
 ```Java
