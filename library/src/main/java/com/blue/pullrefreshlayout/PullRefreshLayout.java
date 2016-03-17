@@ -264,7 +264,7 @@ public class PullRefreshLayout extends ViewGroup {
 
         int offset = mCurrentTargetOffsetTop;
         if (null != mListener || null != mHeaderView) {
-            float rate = Math.abs(offset) / mTotalDragDistance * 2f;
+            float rate = Math.abs(offset) / (mTotalDragDistance * 2f);
 
             if (null != mListener) {
                 mListener.onRefreshDistance(Math.abs(offset), rate);
@@ -700,7 +700,9 @@ public class PullRefreshLayout extends ViewGroup {
 
         mCurrentTargetOffsetTop = getTargetOffsetTop();
         if (requiresUpdate && android.os.Build.VERSION.SDK_INT < 11) {
+            //API11以下invalidate不回调onLayout
             invalidate();
+            requestLayout();
         }
     }
 
